@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
+
 <form>
-<div class="card">
+<div class="card m-5">
 <!--header-->
     <div class="card-header">
         <div class="row">
@@ -21,8 +24,8 @@
     </div>
     <div class="card-body">
 <!--filed missed-->
-    <div class="row">
-        <div class="col-sm-12" style="margin: 1rem;">
+    <div class="d-flex flex-column">
+        <div id="header2" class="p-2 border border-danger">
             some fields are missing
         </div>
     </div>  
@@ -76,29 +79,23 @@
             </div>
         </div>
 <!--CARD ACCEPT/MESSAGE-->
-        <div class="form-row">
-            <div class="form-group col-3">
+        <div class="row">
+            <div class="form-group col-2">
                 <label for="inputCard3">We accept</label>
-                <div class="form-control">
-                    <div class="form-check form-check-inline">
+                <div class="form-control bg-secondary">
+                    <div class=" form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1">1</label>
-                    </div>
-                    <div class="form-check form-check-inline">
+                        <label class="form-check-label text-white" for="inlineRadio1"><i class="fab fa-cc-mastercard"></i></label>
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2">2</label>
-                    </div>
-                    <div class="form-check form-check-inline">
+                        <label class="form-check-label text-white" for="inlineRadio2"><i class="fab fa-cc-visa"></i></label>
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                        <label class="form-check-label" for="inlineRadio3">3</label>
-                    </div>
-                    <div class="form-check form-check-inline">
+                        <label class="form-check-label text-white" for="inlineRadio3"><i class="fab fa-cc-paypal"></i></label>
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                        <label class="form-check-label" for="inlineRadio4">4</label>
+                        <label class="form-check-label text-white" for="inlineRadio4"><i class="fab fa-cc-amex"></i></label>
                     </div>
                 </div>     
             </div>
-            <div class="form-group col-6 offset-3">
+            <div class="form-group col-6 offset-4">
                 <div class="textarea">
                     <form>
                         <div class="form-group">
@@ -123,6 +120,7 @@
     </div>
 </div>
 </form>
+
 
 <!--java script / bootstrap-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

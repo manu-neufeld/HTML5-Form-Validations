@@ -1,11 +1,6 @@
-.container{
-    background-color: red;
-}
+#header2 {
 
-.container form .credit-card{
-    background-color: blue;
-}
-
-.notes{
-    
+    background-color: EE8B8B; 
+    color: 491414;
+    border: radius;
 }
